@@ -1,0 +1,60 @@
+.onsiteTitle {
+    box-sizing: border-box;
+    position: absolute;
+    width: 78.7%;
+    height: 19%;
+    left: 10%;
+    top: 30%;
+    border-bottom: 2px solid rgba(38, 38, 38, 0.25);
+}
+
+.onsiteTitle-span {
+    position: relative;
+    width: 129px;
+    height: 49px;
+    top: 35px;
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 49px;
+    color: #262626;
+}
+
+.onsiteTitle-form {
+    position: relative;
+    max-width: 200px;
+    right: -86.5%;
+    bottom: 20%;
+}
+
+.form-div {
+    position: relative;
+    background: #FFFFFF;
+    border: 3px solid rgba(61, 115, 64, 0.75);
+    border-radius: 4px;
+    transition: all .5s ease-in-out;
+    outline: 0;
+}
+
+.form-div:hover {
+    border-color: #84D98A;
+}
+
+.div-select {
+    position: relative;
+    z-index: 2;
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    max-height: 50px;
+    padding: 0 20% 0 1em;
+    color: #3D7340;
+    line-height: 50px;
+    border: 0;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.div-select:focus {
+    outline: 0;
+}
