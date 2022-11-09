@@ -5,48 +5,32 @@ header {
     max-width: 1920px;
     background: linear-gradient(180deg, rgba(38, 38, 38, 0.2) 0%, rgba(132, 217, 138, 0.1) 87.45%), #3D7340;
     position: fixed;
+    margin-bottom: 20px;
 }
 
 .logo {
-    position: absolute;
-    left: 8%;
+    position: relative;
+    left: 9%;
     top: 20%;
+}
+
+.logo-img {
+    position: relative;
     max-width: 59px;
     max-height: 55px;
 }
 
-.about {
+.links {
     position: relative;
-    left: 77%;
-    top: 17%;
+    left: 70%;
+    top: 5%;
+    margin: 0 10px;
 }
 
-.about-img {
+.links-img {
     max-width: 38px;
     max-height: 38px;
     top: 12%;
-}
-
-.about-label {
-    top: 1%;
-    left: 0.5%;
-    position: relative;
-}
-
-.account {
-    position: relative;
-    left: 80%;
-    top: 14%;
-}
-
-.account-img {
-    max-width: 33px;
-    max-height: 33px;
-    top: 14%;
-}
-
-.account-label {
-    top: 4%;
-    position: relative;
+    margin-right: 5px;
 }
 
