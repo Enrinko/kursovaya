@@ -3,10 +3,10 @@
 var select = document.querySelectorAll('.div-select'),
     hoverClass = 'hover';
 
-Array.prototype.forEach.call(select, function(el, i) {
+Array.prototype.forEach.call(select, function (el, i) {
     var parent = el.parentNode;
 
-    el.addEventListener('hover', function() {
+    el.addEventListener('hover', function () {
 
         if (parent.classList) {
             parent.classList.add(hoverClass);
@@ -15,7 +15,7 @@ Array.prototype.forEach.call(select, function(el, i) {
         }
     })
 
-    el.addEventListener('blur', function() {
+    el.addEventListener('blur', function () {
 
         if (parent.classList) {
             parent.classList.remove(hoverClass);

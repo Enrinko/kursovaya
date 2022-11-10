@@ -4,21 +4,25 @@
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"/>
     <link href="../css/public.css" rel="stylesheet"/>
-    <link href="../css/header.css" rel="stylesheet"/>
+    <link href="../css/index-header.css" rel="stylesheet"/>
     <link href="../css/reset.css" rel="stylesheet"/>
-    <link href="../css/test.css" rel="stylesheet"/>
-    <link href="../css/onsiteTitle.css" rel="stylesheet"/>
+    <link href="../css/index-numberOfTest.css" rel="stylesheet"/>
+    <link href="../css/index-onsiteTitle.css" rel="stylesheet"/>
     <title>Тесты всё ок</title>
 </head>
 <body>
 <header>
     <a href="" class="logo">
         <img src="../img/logo.png" class="logo-img img"></a>
-    <a href="" class="header-a links">
+    <a href="" class="links">
+        <img src="../img/user.png" class="links-img img" id="account">
+        <label class="links-label text" for="account">Корниенко Максим</label>
+    </a>
+    <a href="" class="links">
         <img src="../img/about.png" class="links-img img" id="about">
         <label class="links-label text" for="about">О нас</label>
     </a>
-    <a href="" class="header-a links">
+    <a href="" class="links">
         <img src="../img/exit.png" class="links-img img" id="account">
         <label class="links-label text" for="account">Войти</label>
     </a>
@@ -38,14 +42,35 @@
     </form>
 </div>
 
-<div class="test">
-    <ul class="test-ul">
-        <li>Тема теста</li>
-        <li>Предмет</li>
-        <li>Количество вопросов</li>
+<div class="numberOfTests">
+    <ul class="listOfTests">
+        <li>
+            <div class="test">
+                <ul class="test-ul text">
+                    <li>Предмет</li>
+                    <li>Тема теста</li>
+                </ul>
+                <form class="test-form">
+                    <button class="test-button text">Пройти тест</button>
+                    <button class="test-button"><img src="../img/edit.png" class="img"></button>
+                </form>
+            </div>
+        </li>
+        <li>
+            <div class="test">
+                <ul class="test-ul text">
+                    <li>Предмет</li>
+                    <li>Тема теста</li>
+                </ul>
+                <form class="test-form">
+                    <button class="test-button text">Пройти тест</button>
+                    <button class="test-button"><img src="../img/edit.png" class="img"></button>
+                </form>
+            </div>
+        </li>
     </ul>
-    <button class="test-button">Пройти тест</button>
 </div>
+
 <script type="text/javascript" src="../js/select.js"></script>
 </body>
 </html>

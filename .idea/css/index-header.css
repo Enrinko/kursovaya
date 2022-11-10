@@ -6,6 +6,7 @@ header {
     background: linear-gradient(180deg, rgba(38, 38, 38, 0.2) 0%, rgba(132, 217, 138, 0.1) 87.45%), #3D7340;
     position: fixed;
     margin-bottom: 20px;
+    z-index: 100;
 }
 
 .logo {
@@ -22,9 +23,10 @@ header {
 
 .links {
     position: relative;
-    left: 70%;
+    left: 55%;
     top: 5%;
     margin: 0 10px;
+    font-weight: 500;
 }
 
 .links-img {
@@ -34,3 +36,8 @@ header {
     margin-right: 5px;
 }
 
+@media (max-width: 1500px){
+    .links {
+        left: 25%;
+    }
+}

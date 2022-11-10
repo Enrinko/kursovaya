@@ -5,7 +5,7 @@
     height: 11%;
     min-height: 101px;
     left: 10%;
-    top: 23%;
+    top: 18%;
     border-bottom: 2px solid rgba(38, 38, 38, 0.25);
     padding-bottom: 15px;
 }
@@ -24,8 +24,8 @@
 .onsiteTitle-form {
     position: relative;
     max-width: 200px;
-    right: -68vw;
-    margin-left: -10%;
+    left: 65vw;
+    margin-right: 10%;
     bottom: 20%;
 }
 
@@ -60,4 +60,13 @@
 
 .div-select:focus {
     outline: 0;
+}
+@media (max-width: 1500px) {
+    .onsiteTitle {
+        top: 30%;
+    }
+
+    .onsiteTitle-form {
+        left: 55vw;
+    }
 }
