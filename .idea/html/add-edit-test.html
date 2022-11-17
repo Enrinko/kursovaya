@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"/>
+    <link href="../css/public.css" rel="stylesheet"/>
+    <link href="../css/reset.css" rel="stylesheet"/>
+    <link href="../css/add-edit-test.css" rel="stylesheet"/>
+    <title>Title</title>
+</head>
+<body>
+<iframe src="header.html" class="header-iframe"></iframe>
+<div class="title text">Добавить тест</div>
+<div class="test text">
+    <form action="" method="post" class="test-form">
+        <input type="text" name="form-subject" class="input" placeholder="Предмет теста">
+        <input type="text" name="form-theme" class="input" placeholder="Тема теста">
+        <div class="form-question">
+            <input type="text" name="question-text" class="input">
+            <div class="question-answer">
+                <input type="checkbox" name="multi-answer" id="multi">
+                <input type="radio" name="only-answer" id="only">
+                <div class="answer-elements">
+                    <input type="text" name="answer" class="input" placeholder="Предмет теста">
+                    <input type="button" name="add-answer" class="bu" id="addAnswer"><img src="../img/about.png">
+                    <input type="button" name="delete-answer" id="deleteAnswer">
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<div class="actions">
+    <input type="button" id="addQuestion">
+    <input type="button" id="deleteQuestion">
+</div>
+</body>
+</html>
