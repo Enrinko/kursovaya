@@ -54,7 +54,7 @@
     transition: all 0.3s ease-in-out;
 }
 
-.test-button:last-child {
+.test-button:not(:only-child):last-child {
     max-height: 24px;
     max-width: 24px;
     border: none;
@@ -73,6 +73,16 @@
 
 .test-form {
     display: flex;
+}
+
+.addNewTest {
+    max-width: 310px;
+    max-height: 158px;
+}
+
+.AddnewTest {
+    border: none;
+    max-width: 120px;
 }
 
 @media (max-width: 1500px) {

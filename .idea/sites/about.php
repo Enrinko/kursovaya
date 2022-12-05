@@ -3,13 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"/>
-    <link href="../css/public.css" rel="stylesheet"/>
-    <link href="../css/reset.css" rel="stylesheet"/>
     <link href="../css/about.css" rel="stylesheet"/>
+    <link href="../css/index-header.css" rel="stylesheet"/>
 </head>
 <body>
-<iframe src="header.html" class="header-iframe"></iframe>
+<?php include 'header.html'?>
 <div class="title text"> О нас</div>
 <div class="about text">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu est bibendum volutpat nibh sit. Elit

@@ -21,15 +21,12 @@
     color: #262626;
 }
 
-.onsiteTitle-form {
+.form-div {
     position: relative;
     max-width: 200px;
     left: 65vw;
     margin-right: 10%;
     bottom: 20%;
-}
-
-.form-div {
     position: relative;
     background: #FFFFFF;
     border: 3px solid rgba(61, 115, 64, 0.75);
@@ -61,12 +58,13 @@
 .div-select:focus {
     outline: 0;
 }
+
 @media (max-width: 1500px) {
     .onsiteTitle {
         top: 30%;
     }
 
-    .onsiteTitle-form {
+    .form-div {
         left: 55vw;
     }
 }
