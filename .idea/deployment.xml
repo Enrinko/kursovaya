@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="Apache Local Web Server" remoteFilesAllowedToDisappearOnAutoupload="false">
+  <component name="PublishConfigData">
     <serverData>
       <paths name="Apache Local Web Server">
         <serverdata>
           <mappings>
-            <mapping deploy="forTest" local="$PROJECT_DIR$" web="/forTest" />
+            <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
